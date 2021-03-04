@@ -1,0 +1,4 @@
+https://www.figma.com/file/yUuxJprKVie5U1lIHBCJaj/Lesson-4?node-id=0%3A1
+
+По этой ссылке находиться дизайн всего задания, необходимо повторить его в точности
+Используй float, position, и то, что уже до этого учили
