@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styles start =========================================================== */
+html,
+body {
+    font-size: 16px;
+}
+
+
+:root {
+    --main-color: #000;
+    --secondary-color: #7D7987;
+    --accent-color: #FB8F1D;
+    --neutral-color: #fff;
+    --main-font: 'Inter', sans-serif;
+    --secondary-font: 'Mulish', sans-serif;
+    --headline-font: 'Playfair Display', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main styles end =========================================================== */
+
+/* Utility classes start ============================================================================== */
+.container {
+    width: 1222px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-md {
+    font-size: 1.5rem;
+}
+
+.text-sm {
+    font-size: 1rem;
+}
+
+.text-xs {
+    font-size: 0.8rem;
+}
+
+/* Utility classes end ============================================================================ */
+
+
+/* Header start ==================================================================== */
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header__button {
+    padding: 15px 46px;
+    border: 1px solid var(--accent-color);
+    border-radius: 8px;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+
+.header__button_login {
+    color: var(--accent-color);
+    margin-right: 28px;
+}
+
+.header__button_register {
+    color: var(--neutral-color);
+    background: var(--accent-color);
+}
+
+.header__listItem {
+    margin-right: 35px;
+}
+
+.header__link {
+    font-family: var(--main-font);
+    font-weight: 400;
+    color: var(--secondary-color);
+    font-size: 1rem;
+}
+
+
+
+/* Header end ==================================================================== */

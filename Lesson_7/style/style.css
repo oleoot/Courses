@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main styles start =========================================================== */
+html,
+body {
+    font-size: 16px;
+}
+
+
+:root {
+    --main-color: #000;
+    --secondary-color: #7D7987;
+    --accent-color: #FB8F1D;
+    --main-font: font-family: 'Inter', sans-serif;
+    --secondary-font: font-family: 'Mulish', sans-serif;
+    --headkine-font: font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main styles end =========================================================== */
+
+/* Utility classes start ============================================================================== */
+.container {
+    width: 1222px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.text-md {
+    font-size: 1.5rem;
+}
+
+.text-sm {
+    font-size: 1rem;
+}
+
+.text-xs {
+    font-size: 0.8rem;
+}
+
+/* Utility classes end ============================================================================ */
